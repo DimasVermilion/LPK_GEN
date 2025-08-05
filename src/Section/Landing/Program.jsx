@@ -55,22 +55,22 @@ function ProgramSection() {
               </div>
               <div className="md:col-span-3 p-8">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
-                  tentang Bahasa dan budaya Jepang
+                 pengetahuan dasar keperawatan lansia
                 </h3>
-                <p className="text-sm text-gray-600 mb-4">日本語・日本文化について</p>
+                <p className="text-sm text-gray-600 mb-4">介護の基礎知識</p>
 
                 <div className="space-y-4">
                   <p className="text-sm text-gray-700 leading-relaxed">
-                    Kami tidak hanya berfokus pada pembelajaran kemampuan dasar membaca dan menulis dalam bahasa Jepang, tetapi juga menanamkan nilai-nilai budaya Jepang seperti rasa empati dan tata krama terhadap sesama.
+                    Mempelajari dasar-dasar keperawatan, fungsi tubuh lansia dan penyandang disabilitas, gejala demensia, penggunaan alat bantu, serta pencegahan infeksi—sebagai bekal penting dalam pelayanan keperawatan.
                   </p>
 
-                  <p className="text-sm text-gray-700 leading-relaxed">
+                  {/* <p className="text-sm text-gray-700 leading-relaxed">
                     Selain itu, kami bertujuan untuk membekali peserta dengan kemampuan berbahasa Jepang yang berguna dalam kehidupan sehari-hari dan dunia kerja, serta pemahaman yang mendalam tentang budaya dan pengetahuan yang dibutuhkan di masyarakat Jepang.
                   </p>
 
                   <p className="text-xs text-gray-500 leading-relaxed">
                     日本語の読み書きの基礎能力の習得だけでなく、思いやりや他者への気遣いなど、日本の文化的価値観も身につけることを目指しています。また、日常生活や職場で役立つ日本語能力と、日本社会で必要な文化的理解と知識を身につけることを目標としています。
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -88,22 +88,22 @@ function ProgramSection() {
               </div>
               <div className="md:col-span-3 p-8">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
-                  tentang Bahasa dan budaya Jepang
+                  ketrampilan keperawatan lansia
                 </h3>
-                <p className="text-sm text-gray-600 mb-4">日本語・日本文化について</p>
+                <p className="text-sm text-gray-600 mb-4">介護技術</p>
 
                 <div className="space-y-4">
                   <p className="text-sm text-gray-700 leading-relaxed">
-                    Kami tidak hanya berfokus pada pembelajaran kemampuan dasar membaca dan menulis dalam bahasa Jepang, tetapi juga menanamkan nilai-nilai budaya Jepang seperti rasa empati dan tata krama terhadap sesama.
+                   Untuk membekali siswa dengan kemampuan memberikan layanan keperawatan yang berkualitas di lapangan, GEN memberikan pelatihan dasar keterampilan keperawatan secara menyeluruh dan terarah. Pelatihan dipandu oleh instruktur yang memiliki sertifikasi Kaigo Fukushishi (Perawat Lansia Bersertifikat), dengan pendekatan profesional dan praktis.
                   </p>
 
-                  <p className="text-sm text-gray-700 leading-relaxed">
+                  {/* <p className="text-sm text-gray-700 leading-relaxed">
                     Selain itu, kami bertujuan untuk membekali peserta dengan kemampuan berbahasa Jepang yang berguna dalam kehidupan sehari-hari dan dunia kerja, serta pemahaman yang mendalam tentang budaya dan pengetahuan yang dibutuhkan di masyarakat Jepang.
                   </p>
 
                   <p className="text-xs text-gray-500 leading-relaxed">
                     日本語の読み書きの基礎能力の習得だけでなく、思いやりや他者への気遣いなど、日本の文化的価値観も身につけることを目指しています。また、日常生活や職場で役立つ日本語能力と、日本社会で必要な文化的理解と知識を身につけることを目標としています。
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -121,22 +121,23 @@ function ProgramSection() {
               </div>
               <div className="md:col-span-3 p-8">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">
-                  tentang Bahasa dan budaya Jepang
+                  praktik keperawatan lansia di panti
                 </h3>
-                <p className="text-sm text-gray-600 mb-4">日本語・日本文化について</p>
+                <p className="text-sm text-gray-600 mb-4">インドネシア老人ホームでの介護実習</p>
 
                 <div className="space-y-4">
                   <p className="text-sm text-gray-700 leading-relaxed">
-                    Kami tidak hanya berfokus pada pembelajaran kemampuan dasar membaca dan menulis dalam bahasa Jepang, tetapi juga menanamkan nilai-nilai budaya Jepang seperti rasa empati dan tata krama terhadap sesama.
+                    Peserta mengikuti praktik langsung di panti jompo di Indonesia, untuk menerapkan pengetahuan dan keterampilan yang telah dipelajari secara teori dalam situasi nyata, sekaligus mengembangkan kemampuan keperawatan yang lebih praktis.
+                    Selain itu, peserta juga dilatih keterampilan komunikasi—seperti penggunaan bahasa yang sopan, kemampuan mendengarkan, berempati, dan menjelaskan—untuk membangun hubungan yang baik dengan pengguna layanan maupun rekan kerja.
                   </p>
 
-                  <p className="text-sm text-gray-700 leading-relaxed">
+                  {/* <p className="text-sm text-gray-700 leading-relaxed">
                     Selain itu, kami bertujuan untuk membekali peserta dengan kemampuan berbahasa Jepang yang berguna dalam kehidupan sehari-hari dan dunia kerja, serta pemahaman yang mendalam tentang budaya dan pengetahuan yang dibutuhkan di masyarakat Jepang.
                   </p>
 
                   <p className="text-xs text-gray-500 leading-relaxed">
                     日本語の読み書きの基礎能力の習得だけでなく、思いやりや他者への気遣いなど、日本の文化的価値観も身につけることを目指しています。また、日常生活や職場で役立つ日本語能力と、日本社会で必要な文化的理解と知識を身につけることを目標としています。
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>

@@ -3,7 +3,7 @@ const steps = [
     id: 1,
     title: "Pendaftaran dan Registrasi",
     description:
-      "Peserta melakukan pendaftaran dan registrasi untuk mengikuti program pelatihan keterampilan khusus sesuai dengan bidang yang diminati.",
+      "Kandidat mendaftar di LPK GEN dan mengikuti sesi penjelasan program.",
     side: "left",
     bgColor: "bg-red-600",
     outline: "outline-gray-500",
@@ -13,9 +13,9 @@ const steps = [
   },
   {
     id: 2,
-    title: "Seleksi Tahap Awal",
+    title: "Belajar Bahasa Jepang",
     description:
-      "Proses seleksi awal untuk menentukan kelayakan peserta dalam mengikuti program pelatihan berdasarkan kriteria yang telah ditetapkan.",
+      "Untuk bekerja dengan status Tokutei Ginou, kandidat harus lulus ujian Bahasa Jepang Dasar (JFT-Basic level A2) atau JLPT N4 ke atas..",
     side: "right",
     bgColor: "bg-red-700",
     border: "border-white",
@@ -24,9 +24,9 @@ const steps = [
   },
   {
     id: 3,
-    title: "Pengelolaan Ujian Keterampilan Terkait",
+    title: "Mengikuti Ujian Keterampilan Tokutei Ginou",
     description:
-      "Pelaksanaan ujian keterampilan untuk mengukur kemampuan dasar peserta sebelum mengikuti program pelatihan lanjutan.",
+      "Mengikuti ujian keterampilan bidang yang diinginkan dan dinyatakan lulus.",
     side: "left",
     bgColor: "bg-red-700",
     border: "border-white",
@@ -34,9 +34,9 @@ const steps = [
   },
   {
     id: 4,
-    title: "Penyiapan Dokumen dan Wawancara",
+    title: "Penyiapan Dokumen dan Wawan Persiapan Dokumen dan Wawancara (5 bulan sebelum keberangkatan)",
     description:
-      "Tahap persiapan dokumen lengkap dan pelaksanaan wawancara untuk menentukan kesesuaian peserta dengan program.",
+      "Menyiapkan dokumen yang diperlukan seperti CV dan dokumen pendukung lainnya, lalu mengikuti wawancara dengan perusahaan penerima di Jepang.",
     side: "right",
     bgColor: "bg-red-700",
     border: "border-white",
@@ -44,9 +44,9 @@ const steps = [
   },
   {
     id: 5,
-    title: "Penyelenggaraan Kontrak Kerja",
+    title: "Penandatanganan Kontrak Kerja (5 bulan sebelum keberangkatan)",
     description:
-      "Proses penandatanganan kontrak kerja dan kesepakatan mengenai hak dan kewajiban selama mengikuti program pelatihan.",
+      "Setelah lulus wawancara, kandidat menandatangani kontrak kerja resmi dengan perusahaan di Jepang. Melakukan pembuatan paspor dan pemeriksaan kesehatan.",
     side: "left",
     bgColor: "bg-red-700",
     border: "border-white",
@@ -54,9 +54,9 @@ const steps = [
   },
   {
     id: 6,
-    title: "Pengajuan Status Tinggal di Jalan",
+    title: "Pengajuan Status Tinggal (4 bulan sebelum keberangkatan)",
     description:
-      "Proses pengajuan dan pengurusan status tinggal sementara bagi peserta yang memerlukan akomodasi selama pelatihan.",
+      "Lembaga pengirim dan lembaga penerima bekerja sama mengajukan permohonan penerbitan Certificate of Eligibility (COE) ke Imigrasi Jepang untuk mendapatkan izin masuk.Waktu pemeriksaan imigrasi biasanya memakan waktu sekitar 2–3 bulan.",
     side: "right",
     bgColor: "bg-red-700",
     border: "border-white",
@@ -64,9 +64,9 @@ const steps = [
   },
   {
     id: 7,
-    title: "Registrasi di Sistem SIPROTIM",
+    title: "Registrasi di Sistem SISKOP2MI (1 bulan sebelum keberangkatan)",
     description:
-      "Pendaftaran peserta dalam sistem SIPROTIM untuk monitoring dan evaluasi progress pelatihan secara berkelanjutan.",
+      "Tenaga kerja migran Indonesia akan didaftarkan di sistem layanan pengelolaan pekerja migran (SISKOP2MI) dan akan mendapatkan Kartu Tenaga Kerja Luar Negeri (E-KTKLN).",
     side: "left",
     bgColor: "bg-red-700",
     border: "border-white",
@@ -74,9 +74,9 @@ const steps = [
   },
   {
     id: 8,
-    title: "Pengajuan Visa di Instansi",
+    title: "Pengajuan Visa (2 minggu sebelum keberangkatan)",
     description:
-      "Proses pengajuan visa dan dokumen perjalanan yang diperlukan untuk keperluan pelatihan di luar negeri jika diperlukan.",
+      "Mengajukan visa Tokutei Ginou ke Kedutaan Besar Jepang.",
     side: "right",
     bgColor: "bg-red-700",
     border: "border-white",
@@ -86,7 +86,7 @@ const steps = [
     id: 9,
     title: "Berangkat ke Jepang dan Memulai Pekerjaan",
     description:
-      "Tahap akhir dimana peserta berangkat ke lokasi pelatihan dan memulai program keterampilan khusus yang telah ditetapkan.",
+      "Setelah visa diterbitkan, kandidat berangkat ke Jepang dan memulai pekerjaan di perusahaan penerima.",
     side: "left",
     bgColor: "bg-red-700",
     border: "border-white",
@@ -110,9 +110,9 @@ function PelatihanKeterampilan() {
             <div className="p-6">
               <h2 className="text-xl font-semibold text-gray-800 mb-4">Pelatiga Keterampilan Khusus</h2>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Pelatihan keterampilan khusus merupakan program pelatihan yang dirancang untuk meningkatkan kemampuan dan keahlian peserta dalam bidang tertentu. Program ini
-                mencakup berbagai aspek pembelajaran yang disesuaikan dengan kebutuhan industri dan perkembangan teknologi terkini. Melalui pendekatan yang komprehensif,
-                peserta akan mendapatkan pengetahuan teoritis dan praktis yang dapat langsung diaplikasikan dalam dunia kerja.
+                Program Tokutei Ginou (TG/SSW) adalah skema yang diperuntukkan bagi warga negara asing yang ingin bekerja di Jepang. 
+                 Melalui program ini, peserta dapat bekerja di perusahaan Jepang pada 14 bidang industri seperti keperawatan, restoran, pengolahan makanan, pertanian, dan lainnya, 
+                 dengan syarat memiliki kemampuan bahasa Jepang dan keterampilan khusus sesuai bidang yang dipilih.
               </p>
             </div>
           </div>

@@ -10,7 +10,7 @@ const SUBTITLE = [
 const TRAINING_REQUIREMENTS_LEFT = [
   "1 - Pria/Wanita",
   "3 - Minimal Lulusan SMA/SMK Sederajat",
-  "5 - Siap dan Mau Belajar yang Baik",
+  "5 - Sikap dan Mental yang Baik",
 ];
 
 const TRAINING_REQUIREMENTS_RIGHT = [
@@ -21,7 +21,7 @@ const TRAINING_REQUIREMENTS_RIGHT = [
   {
     title: "4 - Sehat Fisik dan Mental",
     description:
-      "dan tidak memiliki penyakit menular dan yang dapat mengganggu aktivitas kerja",
+      "(dibuktikan dengan hasil pemeriksaan kesehatan/ MCU yang menyatakan FIT)",
   },
   {
     title:
@@ -31,17 +31,17 @@ const TRAINING_REQUIREMENTS_RIGHT = [
 ];
 
 const METHODOLOGY = [
-  ["Belajar Lisan/Oral", "KTP"],
+  ["Ijazah Terakhir", "KK"],
   ["KTP", "Akta Kelahiran"],
 ];
 
 const REGISTRATION_PROCESS = [
-  "1 - Mengajukan berkas-berkas persyaratan pendaftaran (Foto copy dan Asli)",
+  "1 - Menyiapkan berkas-berkas persyaratan pendaftaran (Foto copy dan Asli)",
   "2 - Datang langsung ke LPK GEN",
   "3 - Mengisi Formulir pendaftaran",
-  "4 - Mengumpulkan berkas-berkas persyaratan pendaftaran(Foto Copy)",
+  "4 - Menyerahkan berkas-berkas persyaratan pendaftaran(Foto Copy)",
   "5 - Mengikuti Instruktur Pelaksanaan Pemeriksaan kesehatan di Rumah sakit/klinik (jika medical)",
-  "6 - Mengikuti Instruktur pelaksanaan Psikotes/matematika dasar dan wawancara sebelum penerimaan siswa baru",
+  "6 - Mengikuti Instruktur pelaksanaan Psikotes, matematika dasar dan wawancara sebelum penerimaan siswa baru",
   "7 - Mengikuti Instruktur pelaksanaan pembelajaran bahasa jepang sesuai jadwal yang ditentukan",
 ];
 

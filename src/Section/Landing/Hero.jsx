@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 function Hero() {
   const images = [
     "/images/pr.jpg",
-    "/images/Rectangle 33.png",
-    "/images/lis.jpg",
+    "/images/hero2.jpeg",
+    "/images/HERO3.jpeg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
